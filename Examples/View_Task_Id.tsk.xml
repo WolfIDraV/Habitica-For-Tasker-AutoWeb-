@@ -1,0 +1,204 @@
+<TaskerData sr="" dvi="1" tv="6.0.10">
+	<Task sr="task72">
+		<cdate>1671969502371</cdate>
+		<edate>1672321087069</edate>
+		<id>72</id>
+		<nme>View Task Id</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>378</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%ld_button
+Button
+The label of the button that was clicked&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%ld_long
+Long
+true if item was long clicked, false otherwise&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%ld_selected
+Selected
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%ld_selected_index
+Selected Index
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg10" val="0"/>
+			<Int sr="arg11" val="0"/>
+			<Int sr="arg12" val="1"/>
+			<Str sr="arg13" ve="3"/>
+			<Str sr="arg2" ve="3">Type of Tasks</Str>
+			<Str sr="arg3" ve="3">habits,dailys,todos</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="30"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>122375409</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<Api>https://habitica.com/api/v3/</Api>
+					<Api-type>java.lang.String</Api-type>
+					<ApiEndpoint>tasks/user</ApiEndpoint>
+					<ApiEndpoint-type>java.lang.String</ApiEndpoint-type>
+					<FieldsToGet_Api>&lt;StringArray sr=""&gt;&lt;_array_FieldsToGet_Api10&gt;text()&lt;/_array_FieldsToGet_Api10&gt;&lt;_array_FieldsToGet_Api11&gt;attribute()&lt;/_array_FieldsToGet_Api11&gt;&lt;_array_FieldsToGet_Api12&gt;frequency()&lt;/_array_FieldsToGet_Api12&gt;&lt;_array_FieldsToGet_Api13&gt;down()&lt;/_array_FieldsToGet_Api13&gt;&lt;_array_FieldsToGet_Api14&gt;history_date()&lt;/_array_FieldsToGet_Api14&gt;&lt;_array_FieldsToGet_Api15&gt;updatedat()&lt;/_array_FieldsToGet_Api15&gt;&lt;_array_FieldsToGet_Api16&gt;counterup()&lt;/_array_FieldsToGet_Api16&gt;&lt;_array_FieldsToGet_Api17&gt;appversion&lt;/_array_FieldsToGet_Api17&gt;&lt;_array_FieldsToGet_Api18&gt;notes()&lt;/_array_FieldsToGet_Api18&gt;&lt;_array_FieldsToGet_Api19&gt;aup()&lt;/_array_FieldsToGet_Api19&gt;&lt;_array_FieldsToGet_Api20&gt;completed()&lt;/_array_FieldsToGet_Api20&gt;&lt;_array_FieldsToGet_Api21&gt;type()&lt;/_array_FieldsToGet_Api21&gt;&lt;_array_FieldsToGet_Api22&gt;priority()&lt;/_array_FieldsToGet_Api22&gt;&lt;_array_FieldsToGet_Api23&gt;success&lt;/_array_FieldsToGet_Api23&gt;&lt;_array_FieldsToGet_Api24&gt;data_date()&lt;/_array_FieldsToGet_Api24&gt;&lt;_array_FieldsToGet_Api25&gt;scoreddown()&lt;/_array_FieldsToGet_Api25&gt;&lt;_array_FieldsToGet_Api0&gt;userid()&lt;/_array_FieldsToGet_Api0&gt;&lt;_array_FieldsToGet_Api1&gt;counterdown()&lt;/_array_FieldsToGet_Api1&gt;&lt;_array_FieldsToGet_Api2&gt;scoredup()&lt;/_array_FieldsToGet_Api2&gt;&lt;_array_FieldsToGet_Api3&gt;data_value()&lt;/_array_FieldsToGet_Api3&gt;&lt;_array_FieldsToGet_Api4&gt;data_id()&lt;/_array_FieldsToGet_Api4&gt;&lt;_array_FieldsToGet_Api5&gt;byhabitica()&lt;/_array_FieldsToGet_Api5&gt;&lt;_array_FieldsToGet_Api6&gt;collapsechecklist()&lt;/_array_FieldsToGet_Api6&gt;&lt;_array_FieldsToGet_Api7&gt;createdat()&lt;/_array_FieldsToGet_Api7&gt;&lt;_array_FieldsToGet_Api8&gt;history_value()&lt;/_array_FieldsToGet_Api8&gt;&lt;_array_FieldsToGet_Api9&gt;_id()&lt;/_array_FieldsToGet_Api9&gt;&lt;/StringArray&gt;</FieldsToGet_Api>
+					<FieldsToGet_Api-type>[Ljava.lang.String;</FieldsToGet_Api-type>
+					<FilterInvert>false</FilterInvert>
+					<FilterInvert-type>java.lang.Boolean</FilterInvert-type>
+					<JoinOutputArray>&lt;null&gt;</JoinOutputArray>
+					<JoinOutputArray-type>java.lang.String</JoinOutputArray-type>
+					<MatchesCaseInsensitive>false</MatchesCaseInsensitive>
+					<MatchesCaseInsensitive-type>java.lang.Boolean</MatchesCaseInsensitive-type>
+					<MatchesContainsAll>false</MatchesContainsAll>
+					<MatchesContainsAll-type>java.lang.Boolean</MatchesContainsAll-type>
+					<MatchesExact>false</MatchesExact>
+					<MatchesExact-type>java.lang.Boolean</MatchesExact-type>
+					<MatchesRegex>false</MatchesRegex>
+					<MatchesRegex-type>java.lang.Boolean</MatchesRegex-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>API: Habitica
+API Action: User Tasks</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.JSON_ENCODED_KEYS>parameters</net.dinglisch.android.tasker.JSON_ENCODED_KEYS>
+					<net.dinglisch.android.tasker.JSON_ENCODED_KEYS-type>java.lang.String</net.dinglisch.android.tasker.JSON_ENCODED_KEYS-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%_id()
+Id
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%appversion
+App Version
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%attribute()
+Attribute
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%aup()
+Up
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%awresponsecode
+Response Code
+The HTTP response code from the web service request&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%byhabitica()
+By Habitica
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;%collapsechecklist()
+Collapse Checklist
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;%completed()
+Completed
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;%counterdown()
+Counter Down
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;%counterup()
+Counter Up
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;%createdat()
+Created At
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;%data_date()
+Data Date
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES12&gt;%data_id()
+Data Id
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES12&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES13&gt;%data_value()
+Data Value
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES13&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES14&gt;%down()
+Down
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES14&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES15&gt;%frequency()
+Frequency
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES15&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES16&gt;%history_date()
+History Date
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES16&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES17&gt;%history_value()
+History Value
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES17&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES18&gt;%notes()
+Notes
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES18&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES19&gt;%priority()
+Priority
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES19&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES20&gt;%scoreddown()
+Scored Down
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES20&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES21&gt;%scoredup()
+Scored Up
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES21&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES22&gt;%success
+Success
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES22&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES23&gt;%text()
+Text
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES23&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES24&gt;%type()
+Type
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES24&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES25&gt;%updatedat()
+Updated At
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES25&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES26&gt;%userid()
+User Id
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES26&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES27&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES27&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES28&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES28&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>Api ApiEndpoint FieldsToGet_Api parameters plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<parameters>{"createdatresultfieldfilterjoaomgcdautotools":"","counterdownresultfieldfilterjoaomgcdautotools":"","aupresultfieldfilterjoaomgcdautotools":"","attributeresultfieldfilterjoaomgcdautotools":"","type":"%ld_selected","x-api-user":"%Hab_userid","textresultfieldfilterjoaomgcdautotools":"","scoreddownresultfieldfilterjoaomgcdautotools":"","history_dateresultfieldfilterjoaomgcdautotools":"","counterupresultfieldfilterjoaomgcdautotools":"","scoredupresultfieldfilterjoaomgcdautotools":"","data_idresultfieldfilterjoaomgcdautotools":"","data_valueresultfieldfilterjoaomgcdautotools":"","_idresultfieldfilterjoaomgcdautotools":"","data_dateresultfieldfilterjoaomgcdautotools":"","notesresultfieldfilterjoaomgcdautotools":"","byhabiticaresultfieldfilterjoaomgcdautotools":"","updatedatresultfieldfilterjoaomgcdautotools":"","downresultfieldfilterjoaomgcdautotools":"","useridresultfieldfilterjoaomgcdautotools":"","typeresultfieldfilterjoaomgcdautotools":"","priorityresultfieldfilterjoaomgcdautotools":"","completedresultfieldfilterjoaomgcdautotools":"","x-api-key":"%Hab_apitoken","frequencyresultfieldfilterjoaomgcdautotools":"","collapsechecklistresultfieldfilterjoaomgcdautotools":"","history_valueresultfieldfilterjoaomgcdautotools":""}</parameters>
+					<parameters-type>java.lang.String</parameters-type>
+					<plugininstanceid>37f7e3a1-6a8e-4cf4-b505-40fa0727323f</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autoweb.intent.IntentApi</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autoweb</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autoweb.activity.ActivityConfigApi</Str>
+			<Int sr="arg3" val="120"/>
+			<Int sr="arg4" val="1"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%awresponsecode</lhs>
+					<op>0</op>
+					<rhs>200</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>378</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%ld_button
+Button
+The label of the button that was clicked&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%ld_long
+Long
+true if item was long clicked, false otherwise&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%ld_selected
+Selected
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%ld_selected_index
+Selected Index
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg10" val="1"/>
+			<Int sr="arg11" val="0"/>
+			<Int sr="arg12" val="1"/>
+			<Str sr="arg13" ve="3"/>
+			<Str sr="arg2" ve="3">Tasks</Str>
+			<Str sr="arg3" ve="3">%text()</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="30"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Task Id: %data_id(%ld_selected_index)</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>38</code>
+		</Action>
+	</Task>
+</TaskerData>
