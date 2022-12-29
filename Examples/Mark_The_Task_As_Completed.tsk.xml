@@ -1,0 +1,198 @@
+<TaskerData sr="" dvi="1" tv="6.0.10">
+	<Task sr="task86">
+		<cdate>1672321581338</cdate>
+		<edate>1672323113426</edate>
+		<id>86</id>
+		<nme>Mark The Task As Completed</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>122375409</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<Api>https://habitica.com/api/v3/</Api>
+					<Api-type>java.lang.String</Api-type>
+					<ApiEndpoint>tasks/user</ApiEndpoint>
+					<ApiEndpoint-type>java.lang.String</ApiEndpoint-type>
+					<FieldsToGet_Api>&lt;StringArray sr=""&gt;&lt;_array_FieldsToGet_Api0&gt;data_id()&lt;/_array_FieldsToGet_Api0&gt;&lt;_array_FieldsToGet_Api1&gt;data_text()&lt;/_array_FieldsToGet_Api1&gt;&lt;_array_FieldsToGet_Api2&gt;text()&lt;/_array_FieldsToGet_Api2&gt;&lt;/StringArray&gt;</FieldsToGet_Api>
+					<FieldsToGet_Api-type>[Ljava.lang.String;</FieldsToGet_Api-type>
+					<FilterInvert>false</FilterInvert>
+					<FilterInvert-type>java.lang.Boolean</FilterInvert-type>
+					<JoinOutputArray>&lt;null&gt;</JoinOutputArray>
+					<JoinOutputArray-type>java.lang.String</JoinOutputArray-type>
+					<MatchesCaseInsensitive>false</MatchesCaseInsensitive>
+					<MatchesCaseInsensitive-type>java.lang.Boolean</MatchesCaseInsensitive-type>
+					<MatchesContainsAll>false</MatchesContainsAll>
+					<MatchesContainsAll-type>java.lang.Boolean</MatchesContainsAll-type>
+					<MatchesExact>false</MatchesExact>
+					<MatchesExact-type>java.lang.Boolean</MatchesExact-type>
+					<MatchesRegex>true</MatchesRegex>
+					<MatchesRegex-type>java.lang.Boolean</MatchesRegex-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>API: Habitica
+API Action: User Tasks
+Regex: true
+Type: todos
+Filter Completed: false</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.JSON_ENCODED_KEYS>parameters</net.dinglisch.android.tasker.JSON_ENCODED_KEYS>
+					<net.dinglisch.android.tasker.JSON_ENCODED_KEYS-type>java.lang.String</net.dinglisch.android.tasker.JSON_ENCODED_KEYS-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%awresponsecode
+Response Code
+The HTTP response code from the web service request&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%data_id()
+Data Id
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%data_text()
+Data Text
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%text()
+Text
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>Api ApiEndpoint FieldsToGet_Api parameters plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<parameters>{"createdatresultfieldfilterjoaomgcdautotools":"","asuresultfieldfilterjoaomgcdautotools":"","aamresultfieldfilterjoaomgcdautotools":"","counterdownresultfieldfilterjoaomgcdautotools":"","valueresultfieldfilterjoaomgcdautotools":"","attributeresultfieldfilterjoaomgcdautotools":"","checklist_completedresultfieldfilterjoaomgcdautotools":"","type":"todos","x-api-user":"%Hab_userid","scoreddownresultfieldfilterjoaomgcdautotools":"","history_dateresultfieldfilterjoaomgcdautotools":"","counterupresultfieldfilterjoaomgcdautotools":"","scoredupresultfieldfilterjoaomgcdautotools":"","data_idresultfieldfilterjoaomgcdautotools":"","checklist_idresultfieldfilterjoaomgcdautotools":"","history_isdueresultfieldfilterjoaomgcdautotools":"","data_dateresultfieldfilterjoaomgcdautotools":"","updatedatresultfieldfilterjoaomgcdautotools":"","aawresultfieldfilterjoaomgcdautotools":"","streakresultfieldfilterjoaomgcdautotools":"","yesterdailyresultfieldfilterjoaomgcdautotools":"","x-api-key":"%Hab_apitoken","frequencyresultfieldfilterjoaomgcdautotools":"","repeat_sresultfieldfilterjoaomgcdautotools":"","data_textresultfieldfilterjoaomgcdautotools":"","everyxresultfieldfilterjoaomgcdautotools":"","aupresultfieldfilterjoaomgcdautotools":"","textresultfieldfilterjoaomgcdautotools":"","nextdueresultfieldfilterjoaomgcdautotools":"","repeat_tresultfieldfilterjoaomgcdautotools":"","athresultfieldfilterjoaomgcdautotools":"","data_valueresultfieldfilterjoaomgcdautotools":"","_idresultfieldfilterjoaomgcdautotools":"","data_completedresultfieldfilterjoaomgcdautotools":"","notesresultfieldfilterjoaomgcdautotools":"","byhabiticaresultfieldfilterjoaomgcdautotools":"","startdateresultfieldfilterjoaomgcdautotools":"","downresultfieldfilterjoaomgcdautotools":"","useridresultfieldfilterjoaomgcdautotools":"","typeresultfieldfilterjoaomgcdautotools":"","aafresultfieldfilterjoaomgcdautotools":"","history_completedresultfieldfilterjoaomgcdautotools":"","priorityresultfieldfilterjoaomgcdautotools":"","completedresultfieldfilterjoaomgcdautotools":"false","checklist_textresultfieldfilterjoaomgcdautotools":"","dateresultfieldfilterjoaomgcdautotools":"","collapsechecklistresultfieldfilterjoaomgcdautotools":"","data_isdueresultfieldfilterjoaomgcdautotools":"","history_valueresultfieldfilterjoaomgcdautotools":""}</parameters>
+					<parameters-type>java.lang.String</parameters-type>
+					<plugininstanceid>4895df25-a751-498e-9e37-4c23a4536481</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autoweb.intent.IntentApi</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autoweb</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autoweb.activity.ActivityConfigApi</Str>
+			<Int sr="arg3" val="120"/>
+			<Int sr="arg4" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>378</code>
+			<se>false</se>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%ld_button
+Button
+The label of the button that was clicked&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%ld_long
+Long
+true if item was long clicked, false otherwise&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%ld_selected
+Selected
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%ld_selected_index
+Selected Index
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg10" val="0"/>
+			<Int sr="arg11" val="0"/>
+			<Int sr="arg12" val="1"/>
+			<Str sr="arg13" ve="3"/>
+			<Str sr="arg2" ve="3">Select task</Str>
+			<Str sr="arg3" ve="3">%text()</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="30"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ld_selected_index</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>122375409</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<Api>https://habitica.com/api/v3/</Api>
+					<Api-type>java.lang.String</Api-type>
+					<ApiEndpoint>tasks/{taskid}/score/{direction}</ApiEndpoint>
+					<ApiEndpoint-type>java.lang.String</ApiEndpoint-type>
+					<FieldsToGet_Api>&lt;StringArray sr=""/&gt;</FieldsToGet_Api>
+					<FieldsToGet_Api-type>[Ljava.lang.String;</FieldsToGet_Api-type>
+					<FilterInvert>false</FilterInvert>
+					<FilterInvert-type>java.lang.Boolean</FilterInvert-type>
+					<JoinOutputArray>&lt;null&gt;</JoinOutputArray>
+					<JoinOutputArray-type>java.lang.String</JoinOutputArray-type>
+					<MatchesCaseInsensitive>false</MatchesCaseInsensitive>
+					<MatchesCaseInsensitive-type>java.lang.Boolean</MatchesCaseInsensitive-type>
+					<MatchesContainsAll>false</MatchesContainsAll>
+					<MatchesContainsAll-type>java.lang.Boolean</MatchesContainsAll-type>
+					<MatchesExact>false</MatchesExact>
+					<MatchesExact-type>java.lang.Boolean</MatchesExact-type>
+					<MatchesRegex>false</MatchesRegex>
+					<MatchesRegex-type>java.lang.Boolean</MatchesRegex-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>API: Habitica
+API Action: Task Score
+direction: up</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.JSON_ENCODED_KEYS>parameters</net.dinglisch.android.tasker.JSON_ENCODED_KEYS>
+					<net.dinglisch.android.tasker.JSON_ENCODED_KEYS-type>java.lang.String</net.dinglisch.android.tasker.JSON_ENCODED_KEYS-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%awresponsecode
+Response Code
+The HTTP response code from the web service request&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>Api ApiEndpoint parameters plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<parameters>{"x-api-key":"%Hab_apitoken","x-api-user":"%Hab_userid","taskid":"%data_id(%ld_selected_index)","direction":"up"}</parameters>
+					<parameters-type>java.lang.String</parameters-type>
+					<plugininstanceid>cc50eeb1-0140-4afc-9414-801cfb52c2c1</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autoweb.intent.IntentApi</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autoweb</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autoweb.activity.ActivityConfigApi</Str>
+			<Int sr="arg3" val="120"/>
+			<Int sr="arg4" val="1"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%awresponsecode</lhs>
+					<op>0</op>
+					<rhs>200</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Task %ld_selected has been completed</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>38</code>
+		</Action>
+	</Task>
+</TaskerData>

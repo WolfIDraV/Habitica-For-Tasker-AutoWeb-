@@ -1,0 +1,8 @@
+Import function(as it will be accepted in AutoWeb).
+
+Your Web Services => Plus => Import From File => Our File Path This is the Habitica.html => File This is the Habitica.html
+
+The second option to import the api(if already available): Browse Web Services => In the filter we type Habitica => Select API => Import API.
+
+To have access to use the api we hold down the button on it in Web Services and go to "Edit Default parameters"(we only edit here if we don't give the Sharing API option).
+We will get the required data from https://habitica.com/user/settings/api
