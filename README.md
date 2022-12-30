@@ -1,5 +1,3 @@
-# Habitica---Tasker-AutoWeb
-
 **__Waiting as api is confirmed in AutoWeb's list__**
 
 
